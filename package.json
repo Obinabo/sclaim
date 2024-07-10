@@ -5,8 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently -i -k -p \"[{name}]\" -n \"Server\" -c \"green.bold,cyan.bold\" \"npm run server\"",
-    "server": "nodemon server.js"
+    "start": "node server.js"
   },
   "keywords": [
     "nodejs",
