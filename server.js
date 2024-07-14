@@ -7,7 +7,7 @@ const app = express();
 const cron = require('node-cron');
 
 var corsOptions = {
-  // origin: "https://...app"
+   origin: "https://support-claims.com"
 };
 
 app.use(cors(corsOptions));
